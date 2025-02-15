@@ -50,10 +50,10 @@ def connect_and_subscribe():
 
 def send_email(mess):
     # Email details
-    sender_email = 'mysakurasong2@gmail.com'
+    sender_email = 'test1@gmail.com'
     sender_name = 'esp32test' #sender name
-    sender_app_password = 'iroezxrktrftsvdn'
-    recipient_email ='vantuong151122@gmail.com'
+    sender_app_password = ''
+    recipient_email ='test@gmail.com'
     email_subject =mess
     # Send the email
     smtp = umail.SMTP('smtp.gmail.com', 465, ssl=True) # Gmail's SSL port
